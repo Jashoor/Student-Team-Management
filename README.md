@@ -24,8 +24,6 @@ A full-stack web application built with the MERN stack (MongoDB, Express.js, Rea
 ### Frontend
 - React.js
 - React Router for navigation
-- Framer Motion for animations
-- React Hook Form for form handling
 - Axios for API communication
 - Tailwind CSS for styling
 
@@ -33,7 +31,6 @@ A full-stack web application built with the MERN stack (MongoDB, Express.js, Rea
 - Node.js
 - Express.js
 - MongoDB for database
-- Multer for file uploads
 - CORS for cross-origin resource sharing
 
 ## Getting Started
@@ -47,7 +44,7 @@ A full-stack web application built with the MERN stack (MongoDB, Express.js, Rea
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone gh repo clone Jashoor/Student-Team-Management
 cd student-team-management
 ```
 
@@ -59,7 +56,7 @@ npm install
 3. Create a `.env` file in the root directory with the following variables:
 ```env
 PORT=5000
-MONGODB_URI=your_mongodb_connection_string
+MONGODB_URI=mongodb://127.0.0.1:27017/student-management
 ```
 
 4. Start the development servers:
